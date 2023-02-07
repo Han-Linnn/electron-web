@@ -1,0 +1,93 @@
+.container {
+  .top {
+    .topItem {
+      display: grid;
+      height: 70px;
+      margin-bottom: 24px;
+      color: #fff;
+      font-weight: bold;
+      font-size: 18px;
+      background-color: rgb(58, 176, 255);
+      cursor: pointer;
+      place-items: center;
+      img {
+        width: 32px;
+      }
+    }
+  }
+
+  .middle {
+    .middleItem {
+      height: 210px;
+      margin-top: 20px;
+      padding: 28px;
+      background-color: white;
+    }
+
+    @media screen and (max-width: 360px) {
+      .middleItem {
+        height: 240px;
+      }
+    }
+
+    .middle_title {
+      font-weight: bold;
+      font-size: 18px;
+    }
+
+    .middle_img {
+      width: 72px;
+      height: 72px;
+      border-radius: 7px;
+    }
+
+    .middle_top {
+      display: flex;
+    }
+
+    .middle_button {
+      margin-top: 25px;
+      .button_right {
+        float: right;
+        margin: 0 2.5px;
+      }
+    }
+
+    .delBtn {
+      color: rgb(58, 176, 255);
+      font-size: 20px;
+    }
+  }
+
+  .email {
+    .email_title {
+      display: inline;
+      margin-right: 25px;
+      font-weight: bold;
+      font-size: 17px;
+    }
+
+    .email_item {
+      height: auto;
+      margin-top: 20px;
+      padding: 30px 30px 20px 30px;
+      overflow: hidden;
+      background-color: white;
+    }
+
+    .email_button {
+      float: right;
+      margin: 0 5px;
+    }
+
+    img {
+      width: 30px;
+      height: 30px;
+    }
+
+    .email_name {
+      font-weight: bold;
+      font-size: 17px;
+    }
+  }
+}
